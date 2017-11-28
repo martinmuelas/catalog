@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="34px"
+   height="34px"
+   viewBox="0 0 34 34"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="coin.svg"
+   inkscape:version="0.92.2 (30a58d1, 2017-08-07)">
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1754"
+     inkscape:window-height="834"
+     id="namedview42"
+     showgrid="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:zoom="9.8926789"
+     inkscape:cx="-7.4323618"
+     inkscape:cy="19.060504"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Page-1" />
+  <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">money</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs24">
+    <filter
+       x="-9.1%"
+       y="-9.1%"
+       width="128.3%"
+       height="128.3%"
+       filterUnits="objectBoundingBox"
+       id="filter-1">
+      <feOffset
+         dx="2"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset6" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur8" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix10" />
+      <feMerge
+         id="feMerge16">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode12" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode14" />
+      </feMerge>
+    </filter>
+    <radialGradient
+       cx="13"
+       cy="13"
+       fx="13"
+       fy="13"
+       r="17.843406"
+       id="radialGradient-2"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFCF00"
+         offset="0%"
+         id="stop19" />
+      <stop
+         stop-color="#F7AE15"
+         offset="100%"
+         id="stop21" />
+    </radialGradient>
+  </defs>
+  <g
+     id="Page-1"
+     stroke-width="1"
+     stroke="none"
+     fill-rule="evenodd"
+     fill="none">
+    <g
+       id="Catalog-pg1"
+       transform="matrix(1.130303,0,0,1.130303,-688.30685,-826.20382)">
+      <g
+         id="products"
+         transform="translate(132,622)">
+        <g
+           id="line-1">
+          <g
+             id="product-card-hover"
+             transform="translate(300)"
+             style="filter:url(#filter-1)">
+            <g
+               id="money"
+               transform="translate(71,100)">
+              <g
+                 transform="translate(108,11)"
+                 id="g32">
+                <g
+                   id="g30">
+                  <circle
+                     id="Oval-Copy-3"
+                     cx="13"
+                     cy="13"
+                     r="13"
+                     style="fill:url(#radialGradient-2)" />
+                  <path
+                     d="m 13,3.0952381 c -5.4541964,0 -9.9047619,4.4513393 -9.9047619,9.9047619 0,5.454196 4.4513393,9.904762 9.9047619,9.904762 5.454196,0 9.904762,-4.451339 9.904762,-9.904762 C 22.904762,7.5458036 18.453423,3.0952381 13,3.0952381 Z M 13,21.744048 C 8.1785089,21.744048 4.2559524,17.821491 4.2559524,13 4.2559524,8.1785089 8.1785089,4.2559524 13,4.2559524 c 4.821491,0 8.744048,3.9225565 8.744048,8.7440476 0,4.821491 -3.922557,8.744048 -8.744048,8.744048 z"
+                     id="Shape"
+                     inkscape:connector-curvature="0"
+                     style="fill:#f8b013;fill-rule:nonzero" />
+                  <path
+                     d="m 13,5.2962963 c -4.2316523,0 -7.7037037,3.4732698 -7.7037037,7.7037037 0,4.231652 3.4732698,7.703704 7.7037037,7.703704 4.231652,0 7.703704,-3.47327 7.703704,-7.703704 0,-4.2316523 -3.47327,-7.7037037 -7.703704,-7.7037037 z M 13,19.524565 C 9.4023311,19.524565 6.4754346,16.597669 6.4754346,13 6.4754346,9.4023311 9.4023311,6.4754346 13,6.4754346 c 3.597669,0 6.524565,2.9268965 6.524565,6.5245654 0,3.597669 -2.926896,6.524565 -6.524565,6.524565 z"
+                     id="path28"
+                     inkscape:connector-curvature="0"
+                     style="fill:#f8b013;fill-rule:nonzero" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
