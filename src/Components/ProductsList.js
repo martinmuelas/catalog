@@ -1,4 +1,3 @@
-/* eslint react/no-did-mount-set-state:0 */
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
@@ -9,7 +8,7 @@ class ProductsList extends Component {
   state = {
     products: [],
     page: 1,
-    sorting: 'Most Recent',
+    sorting: '',
   };
 
   async componentWillMount() {
@@ -23,31 +22,39 @@ class ProductsList extends Component {
       });
       const products = await res.json();
       this.setState({ products });
-      console.log(products);
+      // console.log(products);
     } catch (e) {
       console.log(e);
     }
   }
 
   render() {
-    const products = this.state.products;
-    const page = this.state.page;
+    const { products, page } = this.state;
     const PRODUCTS_PER_PAGE = 16;
 
     const lastIndex = products.length - 1;
     const fromIndex = (page - 1) * PRODUCTS_PER_PAGE;
     const toIndex = fromIndex + PRODUCTS_PER_PAGE < lastIndex ? fromIndex + PRODUCTS_PER_PAGE : products.length;
 
-    // switch this.state.sorting {
-    //   case 'Most Recent':
-    // }
-    const productsToShow = products.slice(fromIndex, toIndex);
+    let productsToShow = [];
+
+    // console.log(`Sorting Method: ${this.state.sorting}`);
+    switch (this.state.sorting) {
+      case 'Lowest Price':
+        productsToShow = products.sort((a, b) => (a.cost > b.cost ? 1 : -1)).slice(fromIndex, toIndex);
+        break;
+      case 'Highest Price':
+        productsToShow = products.sort((a, b) => (a.cost < b.cost ? 1 : -1)).slice(fromIndex, toIndex);
+        break;
+      default:
+        productsToShow = products.slice(fromIndex, toIndex);
+    }
 
     return (
       <div>
         <Controls range={toIndex} total={products.length} />
         <ProductGrid>
-          {productsToShow.map(product => <Card key={product.key} product={product} />)}
+          {productsToShow.map(product => <Card key={product._id} product={product} />)}
         </ProductGrid>
       </div>
     );
@@ -62,6 +69,7 @@ const ProductGrid = styled.div`
   grid-gap: 1.5rem;
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 48px;
   padding: 0 2.6rem 0 2.6rem;
   
   @media (max-width: 700px) {

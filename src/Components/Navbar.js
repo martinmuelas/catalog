@@ -21,7 +21,7 @@ class Navbar extends Component {
       });
       const user = await res.json();
       this.setState({ user });
-      console.log(user);
+      // console.log(user);
     } catch (e) {
       console.log(e);
     }
